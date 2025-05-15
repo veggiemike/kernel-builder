@@ -1,2 +1,8 @@
 -*- mode: org -*-
 
+* for v1.1
+
+ - Install into sourceruckus-style redundant ESPs automatically?  I suppose we
+   could just look for /boot, /boot1, /boot2, etc and do it if found.
+   Shouldn't be too difficult.  Should we cp to each?  Or cpy to /boot then
+   rsync to /boot1, /boot2, etc?  (i think rsync)
